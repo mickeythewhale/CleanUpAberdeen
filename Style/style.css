@@ -1,0 +1,116 @@
+.main-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: white;
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background: darkgreen;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: nonea
+}
+
+header nav ul li a {
+    font-family: Arial, serif;
+    float: left;
+    margin-left: -160px;
+    padding: 0 90px;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border: none;
+    background: white;
+    font-family: Arial, serif;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+header .nav-login form button {
+    width: 60px;
+    height: 30px;
+    padding: 0 10px;
+    background: #ccc;
+
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: -50px;
+    padding: 0 10px;
+    border: none;
+    float: left;
+    background: darkgreen;
+    font-family: Arial, serif;
+    font-size: 15px;
+    color: white;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+
+/* signUp.php*/
+
+.signup-form {
+    width:400px;
+    margin:0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0 5%;
+    margin-bottom: 4px;
+    border: 1px solid #cccccc;
+    background: white;
+    font-family: arial, serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: grey;
+    font-family: arial,serif;
+    font-size: 16px;
+    cursor: pointer;
+}
